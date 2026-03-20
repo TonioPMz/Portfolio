@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Antônio Pires Moreira — Desenvolvedor em formação" />
+  <title>Antônio Pires Moreira | Portfólio</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Google Fonts: Syne (display) + DM Sans (body) -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+    <div class="container">
+      <!-- Logo / nome -->
+      <a class="navbar-brand fw-bold" href="#inicio">
+        <span class="brand-dot"></span>APM
+      </a>
+
+      <!-- Botão hambúrguer mobile -->
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#navMenu"
+              aria-controls="navMenu" aria-expanded="false"
+              aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links de navegação -->
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-1">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formacao">Formação</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+          <!-- Link externo GitHub -->
+          <li class="nav-item">
+            <a class="nav-link nav-github" href="https://github.com/TonioPMz" target="_blank" rel="noopener">
+              <i class="bi bi-github"></i> GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO / INÍCIO ========== -->
+  <header class="hero-section" id="inicio">
+    <!-- Partículas decorativas de fundo -->
+    <div class="hero-bg-shapes" aria-hidden="true">
+      <span class="shape shape-1"></span>
+      <span class="shape shape-2"></span>
+      <span class="shape shape-3"></span>
+    </div>
+
+    <div class="container">
+      <div class="row align-items-center min-vh-100 py-5">
+
+        <!-- Texto principal -->
+        <div class="col-lg-7 order-2 order-lg-1 hero-text">
+          <p class="hero-eyebrow reveal">Olá, mundo! 👋</p>
+          <h1 class="hero-title reveal reveal-delay-1">
+            Antônio<br />
+            <span class="accent-name">Pires Moreira</span>
+          </h1>
+          <p class="hero-subtitle reveal reveal-delay-2">
+            Desenvolvedor em formação • Apaixonado por tecnologia &amp; código
+          </p>
+          <!-- Badges de tech -->
+          <div class="hero-badges reveal reveal-delay-3">
+            <span class="tech-badge">HTML</span>
+            <span class="tech-badge">CSS</span>
+            <span class="tech-badge">JS</span>
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">C#</span>
+          </div>
+          <!-- CTAs -->
+          <div class="hero-ctas reveal reveal-delay-4">
+            <a href="#projetos" class="btn btn-primary-custom">
+              Ver Projetos <i class="bi bi-arrow-down-right"></i>
+            </a>
+            <a href="#contato" class="btn btn-outline-custom">
+              Fale comigo
+            </a>
+          </div>
+        </div>
+
+        <!-- Foto / avatar -->
+        <div class="col-lg-5 order-1 order-lg-2 d-flex justify-content-center mb-5 mb-lg-0">
+          <div class="hero-avatar-wrap reveal reveal-delay-1">
+            <img src="img.jpg" alt="Foto de Antônio Pires Moreira" class="hero-avatar" />
+            <div class="avatar-ring" aria-hidden="true"></div>
+            <div class="avatar-dot" aria-hidden="true"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Seta de scroll -->
+    <a href="#sobre" class="scroll-hint" aria-label="Rolar para baixo">
+      <i class="bi bi-chevron-double-down"></i>
+    </a>
+  </header>
+
+  <!-- ========== SOBRE MIM ========== -->
+  <section class="section-sobre py-section" id="sobre">
+    <div class="container">
+      <div class="row align-items-center g-5">
+
+        <!-- Card de apresentação -->
+        <div class="col-lg-5 reveal">
+          <div class="about-card">
+            <div class="about-card-header">
+              <i class="bi bi-person-bounding-box"></i>
+            </div>
+            <div class="about-stats">
+              <div class="stat-item">
+                <span class="stat-num">5+</span>
+                <span class="stat-label">Linguagens</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <span class="stat-num">∞</span>
+                <span class="stat-label">Vontade de aprender</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <span class="stat-num">100%</span>
+                <span class="stat-label">Dedicação</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Texto -->
+        <div class="col-lg-7 reveal reveal-delay-1">
+          <span class="section-label">Sobre mim</span>
+          <h2 class="section-title">Quem sou eu?</h2>
+          <p class="section-text">
+            Sou <strong>Antônio Pires Moreira</strong>, um entusiasta da tecnologia em construção de carreira
+            no universo do desenvolvimento de software. Minha jornada começou pela curiosidade sobre como
+            as coisas funcionam por dentro — do hardware ao código.
+          </p>
+          <p class="section-text">
+            Tenho conhecimento prático em <strong>HTML, CSS, JavaScript, Python e C#</strong>, além de sólida
+            base em informática (básica e avançada) e hardware &amp; software. Estou sempre buscando
+            evoluir, aprender novas ferramentas e transformar ideias em soluções reais.
+          </p>
+          <a href="https://github.com/TonioPMz" target="_blank" rel="noopener" class="btn btn-primary-custom mt-3">
+            <i class="bi bi-github me-2"></i>Ver meu GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HABILIDADES ========== -->
+  <section class="section-skills py-section bg-section-alt" id="habilidades">
+    <div class="container">
+      <div class="text-center mb-section reveal">
+        <span class="section-label">O que sei fazer</span>
+        <h2 class="section-title">Habilidades</h2>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+
+        <!-- Card de categoria: Frontend -->
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="skill-card">
+            <div class="skill-card-icon"><i class="bi bi-code-slash"></i></div>
+            <h3 class="skill-card-title">Desenvolvimento Web</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card de categoria: Back-end / Scripts -->
+        <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+          <div class="skill-card">
+            <div class="skill-card-icon"><i class="bi bi-terminal"></i></div>
+            <h3 class="skill-card-title">Programação</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">C#</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card de categoria: Ferramentas / TI -->
+        <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+          <div class="skill-card">
+            <div class="skill-card-icon"><i class="bi bi-pc-display"></i></div>
+            <h3 class="skill-card-title">TI & Informática</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Excel</span>
+              <span class="skill-tag">Hardware</span>
+              <span class="skill-tag">Software</span>
+              <span class="skill-tag">Informática Avançada</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Barras de proficiência -->
+      <div class="row mt-5 g-3 reveal reveal-delay-1">
+        <div class="col-12 col-lg-6">
+          <div class="progress-item">
+            <div class="d-flex justify-content-between mb-1">
+              <span class="progress-label">HTML &amp; CSS</span>
+              <span class="progress-pct">75%</span>
+            </div>
+            <div class="progress skill-progress">
+              <div class="progress-bar" data-width="75" style="width:0%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="progress-item">
+            <div class="d-flex justify-content-between mb-1">
+              <span class="progress-label">JavaScript</span>
+              <span class="progress-pct">60%</span>
+            </div>
+            <div class="progress skill-progress">
+              <div class="progress-bar" data-width="60" style="width:0%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="progress-item">
+            <div class="d-flex justify-content-between mb-1">
+              <span class="progress-label">Python</span>
+              <span class="progress-pct">55%</span>
+            </div>
+            <div class="progress skill-progress">
+              <div class="progress-bar" data-width="55" style="width:0%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="progress-item">
+            <div class="d-flex justify-content-between mb-1">
+              <span class="progress-label">C#</span>
+              <span class="progress-pct">45%</span>
+            </div>
+            <div class="progress skill-progress">
+              <div class="progress-bar" data-width="45" style="width:0%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== PROJETOS ========== -->
+  <section class="section-projects py-section" id="projetos">
+    <div class="container">
+      <div class="text-center mb-section reveal">
+        <span class="section-label">O que construí</span>
+        <h2 class="section-title">Projetos</h2>
+        <p class="section-subtitle">Em breve novos projetos serão adicionados aqui.</p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+
+        <!-- Card placeholder 1 -->
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="project-card placeholder-card">
+            <div class="project-card-top">
+              <div class="project-icon"><i class="bi bi-folder-plus"></i></div>
+              <div class="project-links">
+                <a href="https://github.com/TonioPMz" target="_blank" rel="noopener" aria-label="GitHub">
+                  <i class="bi bi-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Projeto em Breve</h3>
+            <p class="project-desc">Estou desenvolvendo meus primeiros projetos. Acompanhe pelo GitHub para ser o primeiro a ver!</p>
+            <div class="project-tags">
+              <span class="project-tag">???</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card placeholder 2 -->
+        <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+          <div class="project-card placeholder-card">
+            <div class="project-card-top">
+              <div class="project-icon"><i class="bi bi-lightbulb"></i></div>
+              <div class="project-links">
+                <a href="https://github.com/TonioPMz" target="_blank" rel="noopener" aria-label="GitHub">
+                  <i class="bi bi-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Ideias Surgindo</h3>
+            <p class="project-desc">Cada linha de código é um passo adiante. Novos projetos estão no forno.</p>
+            <div class="project-tags">
+              <span class="project-tag">Em desenvolvimento</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card placeholder 3 -->
+        <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+          <div class="project-card placeholder-card">
+            <div class="project-card-top">
+              <div class="project-icon"><i class="bi bi-rocket-takeoff"></i></div>
+              <div class="project-links">
+                <a href="https://github.com/TonioPMz" target="_blank" rel="noopener" aria-label="GitHub">
+                  <i class="bi bi-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Lançamento Próximo</h3>
+            <p class="project-desc">Acompanhe meu perfil no GitHub para ver o que está sendo construído agora.</p>
+            <div class="project-tags">
+              <span class="project-tag">Em breve</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- CTA GitHub -->
+      <div class="text-center mt-5 reveal">
+        <a href="https://github.com/TonioPMz" target="_blank" rel="noopener" class="btn btn-primary-custom btn-lg">
+          <i class="bi bi-github me-2"></i>Ver todos no GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FORMAÇÃO ========== -->
+  <section class="section-education py-section bg-section-alt" id="formacao">
+    <div class="container">
+      <div class="text-center mb-section reveal">
+        <span class="section-label">Minha trajetória</span>
+        <h2 class="section-title">Formação &amp; Cursos</h2>
+      </div>
+
+      <!-- Timeline -->
+      <div class="timeline">
+
+        <!-- Item da timeline -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"><i class="bi bi-mortarboard"></i></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Em andamento</span>
+            <h3 class="timeline-title">Aprendizado Autodidata</h3>
+            <p class="timeline-desc">Estudando HTML, CSS, JavaScript, Python e C# por conta própria, com auxílio de documentações, tutoriais e projetos práticos.</p>
+          </div>
+        </div>
+
+        <!-- Item placeholder -->
+        <div class="timeline-item reveal reveal-delay-1">
+          <div class="timeline-dot"><i class="bi bi-plus-circle"></i></div>
+          <div class="timeline-content timeline-placeholder">
+            <span class="timeline-date">Em breve</span>
+            <h3 class="timeline-title">Novos cursos serão adicionados</h3>
+            <p class="timeline-desc">Certificações e cursos oficiais serão listados aqui conforme forem sendo concluídos.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTATO ========== -->
+  <section class="section-contact py-section" id="contato">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center reveal">
+          <span class="section-label">Vamos conversar</span>
+          <h2 class="section-title">Contato</h2>
+          <p class="section-subtitle mb-5">
+            Tem um projeto, oportunidade ou só quer trocar ideia? Me manda uma mensagem!
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+
+        <!-- Card Email -->
+        <div class="col-md-6 col-lg-4 reveal">
+          <a href="mailto:antoniopires2209@gmail.com" class="contact-card">
+            <div class="contact-card-icon"><i class="bi bi-envelope-at"></i></div>
+            <h4 class="contact-card-title">E-mail</h4>
+            <p class="contact-card-value">antoniopires2209@gmail.com</p>
+          </a>
+        </div>
+
+        <!-- Card GitHub -->
+        <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+          <a href="https://github.com/TonioPMz" target="_blank" rel="noopener" class="contact-card">
+            <div class="contact-card-icon"><i class="bi bi-github"></i></div>
+            <h4 class="contact-card-title">GitHub</h4>
+            <p class="contact-card-value">github.com/TonioPMz</p>
+          </a>
+        </div>
+
+        <!-- Card LinkedIn placeholder -->
+        <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+          <div class="contact-card contact-card-disabled">
+            <div class="contact-card-icon"><i class="bi bi-linkedin"></i></div>
+            <h4 class="contact-card-title">LinkedIn</h4>
+            <p class="contact-card-value">Em breve</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Formulário de contato rápido -->
+      <div class="row justify-content-center mt-5">
+        <div class="col-lg-7 reveal">
+          <div class="contact-form-card">
+            <h3 class="contact-form-title">Envie uma mensagem</h3>
+            <div id="contactForm">
+              <div class="mb-3">
+                <label for="contactName" class="form-label">Seu nome</label>
+                <input type="text" class="form-control custom-input" id="contactName" placeholder="João Silva" />
+              </div>
+              <div class="mb-3">
+                <label for="contactEmail" class="form-label">Seu e-mail</label>
+                <input type="email" class="form-control custom-input" id="contactEmail" placeholder="joao@email.com" />
+              </div>
+              <div class="mb-3">
+                <label for="contactMsg" class="form-label">Mensagem</label>
+                <textarea class="form-control custom-input" id="contactMsg" rows="4" placeholder="Olá Antônio, gostaria de..."></textarea>
+              </div>
+              <button type="button" class="btn btn-primary-custom w-100" id="sendBtn">
+                Enviar mensagem <i class="bi bi-send ms-2"></i>
+              </button>
+            </div>
+            <!-- Feedback de envio -->
+            <div id="formFeedback" class="d-none mt-3 text-center">
+              <div class="form-success-msg">
+                <i class="bi bi-check-circle-fill me-2"></i>Mensagem enviada! Em breve entrarei em contato.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== RODAPÉ ========== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row align-items-center py-4">
+
+        <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+          <span class="footer-brand">APM</span>
+        </div>
+
+        <div class="col-md-4 text-center mb-3 mb-md-0">
+          <p class="footer-copy mb-0">
+            &copy; <span id="footerYear"></span> Antônio Pires Moreira
+          </p>
+        </div>
+
+        <div class="col-md-4 text-center text-md-end">
+          <a href="https://github.com/TonioPMz" target="_blank" rel="noopener" class="footer-social" aria-label="GitHub">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="mailto:antoniopires2209@gmail.com" class="footer-social ms-3" aria-label="Email">
+            <i class="bi bi-envelope-at"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS bundle (inclui Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Script personalizado -->
+  <script src="script.js"></script>
+</body>
+</html>
